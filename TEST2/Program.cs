@@ -7,6 +7,9 @@
             Console.WriteLine("김수지입니다"); //수정
             Test();
             Hello();
+
+            asd a = new asd();
+            a.asg();
         }
         static bool Test()
         {
