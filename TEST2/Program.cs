@@ -6,6 +6,7 @@
         {
             Console.WriteLine("김수지입니다"); //수정
             Test();
+            Hello();
         }
         static bool Test()
         {
@@ -13,6 +14,10 @@
             if (true)
             { return true; }
 
+        }
+        static void Hello()
+        {
+            Console.WriteLine("Hello heekang");
         }
     }
 }
