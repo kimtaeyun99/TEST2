@@ -7,6 +7,7 @@
             Console.WriteLine("김수지입니다"); //수정
             int a = 10;//a추가
             Test();
+            Hello();
         }
         static bool Test()
         {
@@ -14,6 +15,10 @@
             if (true)
             { return true; }
 
+        }
+        static void Hello()
+        {
+            Console.WriteLine("Hello heekang");
         }
     }
 }
